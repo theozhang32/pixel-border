@@ -49,6 +49,7 @@
   border-width: 1px;
   border-style: var(--border-style, solid);
   border-radius: var(--border-radius, 0);
+  border-color: var(--border-color, #000);
   border-image: inherit;
   transform: translate(-50%, -50%) scale(var(--scale));
 }
