@@ -29,7 +29,7 @@
 [pixel-border],
 [pixel-border=true] {
   position: relative;
-  border-width: 0;
+  border: none;
   box-sizing: border-box;
 }
 
@@ -46,9 +46,9 @@
   left: 50%;
   width: var(--size);
   height: var(--size);
-  border: inherit;
   border-width: 1px;
+  border-style: var(--border-style, solid);
+  border-radius: var(--border-radius, 0);
   border-image: inherit;
-  border-radius: inherit;
-  transform: translate(-50%, -50%) scale(var(--scale), var(--scale));
+  transform: translate(-50%, -50%) scale(var(--scale));
 }
